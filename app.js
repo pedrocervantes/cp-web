@@ -14,7 +14,9 @@
 ///////////// Setup Node.js /////////////
 /////////////////////////////////////////
 
-process.env.GOPATH = __dirname;   //set the gopath to current dir and place chaincode inside src folder
+
+//Eso se debe comentar segun indica README.md para correr local 
+//process.env.GOPATH = __dirname;   //set the gopath to current dir and place chaincode inside src folder
 
 var express = require('express');
 var session = require('express-session');
