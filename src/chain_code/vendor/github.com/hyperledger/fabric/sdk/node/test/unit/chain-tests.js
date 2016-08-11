@@ -157,7 +157,7 @@ test('Enroll WebAppAdmin', function (t) {
             pw = "d1ad7f8a43";//"DJY27pEnl16d";
             WebAppAdmin.enroll(pw, function (err, crypto) {
                 if (err) {
-                    t.fail("Failed to enroll WebAppAdmin member " + " ---> " + err);
+                    t.fail("Failed to enroll WebAppAdmin member " + " ------> " + err);
                     t.end(err);
                 } else {
                     t.pass("Successfully enrolled WebAppAdmin member" /*+ " ---> " + JSON.stringify(crypto)*/);
